@@ -51,7 +51,7 @@ public class Program76Exercicio {
 		
 		System.out.println();
 		
-		System.out.println("Lista de Empregados: ");
+		System.out.println("Lista de Empregados:");
 		for (Empregado obj: list) {
 			System.out.printf("%d, %s, %.2f %n", obj.getId(), obj.getNome(), obj.getSalario());
 		}
